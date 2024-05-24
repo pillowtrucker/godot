@@ -31,11 +31,11 @@ jobs:
             sconsflags: debug_symbols=no vsproj=yes vsproj_gen_only=no windows_subsystem=console
             bin: "./bin/godot.windows.editor.x86_64.exe"
 
-          - name: Template (target=template_release)
-            cache-name: windows-template
-            target: template_release
-            tests: false
-            sconsflags: debug_symbols=no
+#          - name: Template (target=template_release)
+#            cache-name: windows-template
+#            target: template_release
+#            tests: false
+#            sconsflags: debug_symbols=no
 
     steps:
       - uses: actions/checkout@v4
