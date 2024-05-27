@@ -39,7 +39,7 @@ jobs:
             cache-name: linux-editor-llvm
             target: editor
             sconsflags: production=true use_llvm=yes linker=lld precision=double
-            bin: "./bin/godot.linuxbsd.editor.x86_64.llvm"
+            bin: "./bin/godot.linuxbsd.editor.double.x86_64.llvm"
             build-mono: false
             tests: false
             doc-test: false

@@ -28,8 +28,8 @@ jobs:
             target: editor
             tests: true
             # Skip debug symbols, they're way too big with MSVC.
-            sconsflags: debug_symbols=no vsproj=yes vsproj_gen_only=no windows_subsystem=console
-            bin: "./bin/godot.windows.editor.x86_64.exe"
+            sconsflags: debug_symbols=no vsproj=yes vsproj_gen_only=no windows_subsystem=console precision=double
+            bin: "./bin/godot.windows.editor.double.x86_64.exe"
 
 #          - name: Template (target=template_release)
 #            cache-name: windows-template
