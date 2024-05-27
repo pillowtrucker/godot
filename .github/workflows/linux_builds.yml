@@ -38,7 +38,7 @@ jobs:
           - name: Release version roughly the same as my production
             cache-name: linux-editor-llvm
             target: editor
-            sconsflags: production=true use_llvm=yes linker=lld
+            sconsflags: production=true use_llvm=yes linker=lld precision=double
             bin: "./bin/godot.linuxbsd.editor.x86_64.llvm"
             build-mono: false
             tests: false
